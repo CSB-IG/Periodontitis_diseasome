@@ -6,7 +6,7 @@
 library(disgenet2r)
 disgenet_api_key <- get_disgenet_api_key(
   email = "ehernandez@inmegen.gob.mx", 
-  password = "Genomic5*" )
+  password = "********" )
 
 Sys.setenv(DISGENET_API_KEY= disgenet_api_key)
 
